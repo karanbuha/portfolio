@@ -6,6 +6,18 @@
 	<title>Test</title>
 </head>
 <body>
+<?php include 'json.php' ?>
+
+<?php
+foreach ($data as $person) {
+    $person['name'];
+	$person['cms'];
+	$person['img'];
+	$person['link'];
+	$person['company'];
+	$person['desc'];
+}
+?>
 
 </body>
 </html>
